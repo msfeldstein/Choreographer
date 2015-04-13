@@ -1,0 +1,22 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background: black;
+
+  &.dragover {
+    background: rgb(100,100,100);
+  }
+}
+
+.control {
+  color: white;
+  pointer: cursor;
+}
+
+#waveform-scroller {
+  width: 100%;
+  overflow-x: scroll;
+}
